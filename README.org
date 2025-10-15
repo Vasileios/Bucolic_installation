@@ -15,7 +15,7 @@
 
 Specification of PIR Sensor
 
-Detection range: up to 7 meterσ
+Detection range: up to 7 meters
 
 Detection angle: 110 degrees
 
