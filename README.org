@@ -1,6 +1,6 @@
 #Title: Bucolic Installation instructions
 
-#Author: Vasilis Agiomyrgiaqnakis
+#Author: Vasilis Agiomyrgianakis
 
 
 * Goat bells installation
