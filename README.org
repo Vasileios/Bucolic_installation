@@ -9,9 +9,9 @@
 
 ** Parts
 
-*** 16-Channel 12-bit PWM/Servo Driver - PCA9685
-
-** PIR Sensor
+*** 1. 16-Channel 12-bit PWM/Servo Driver - PCA9685
+*** 2. Servo motors
+*** 3. PIR Sensor
 
 Specification of PIR Sensor
 
