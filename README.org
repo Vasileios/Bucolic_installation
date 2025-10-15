@@ -14,12 +14,19 @@
 ** PIR Sensor
 
 Specification of PIR Sensor
-Detection range: up to 7 meters
+
+Detection range: up to 7 meterσ
+
 Detection angle: 110 degrees
+
 Operating voltage: DC 4.5V - 12V DC
+
 Output signal: 3.3V digital output
+
 Delay time: adjustable from 0.3 seconds to 5 minutes
+
 Operating temperature: -15°C to +70°C
+
 Sensitivity: Adjustable
 
 * Start automatically after reboot
@@ -27,22 +34,40 @@ Sensitivity: Adjustable
 To install python libraries on RPI you better create a virtual environment
 
 Create a virtual environment using venv or virtualenv
+
 Make sure venv is installed by running:
+
 sudo apt install python3-venv
+
 To create a new virtual environment in a directory named .venv, run:
+
 python3 -m venv .venv
-To activate this virtual environment (which modifies the PATH environment variable), run this:
+
+To activate this virtual environment (which modifies the PATH environment
+variable), run this:
+
 source .venv/bin/activate
 
 Then install the libraries:
 
-pip install python-osc
-Pip install gpiozero
-pip install adafruit-circuitpython-servokit
+#+NAME: shell
+#+BEGIN_SRC shell
+  pip install python-osc
 
-Create a Documents folder
-cd
-mkdir Documents
+  pip install gpiozero
+
+  pip install adafruit-circuitpython-servokit
+#+END_SRC
+
+
+
+  *Create a Documents folder*
+
+#+NAME: shell
+#+BEGIN_SRC shell
+    cd
+    mkdir Documents
+#+END_SRC
 
 Put motionDetect.py, servoDriver.py and oscServoMotionDetect.scd to Documents folder
 
@@ -51,7 +76,12 @@ Put start_tmux.sh file to Home directory
 Put BellPat.sc to SuperCollider Extensions folder
 
 Make "start_tmux.sh" file executable:
-chmod +x ~/start_tmux.sh
+
+#+NAME: shell
+#+BEGIN_SRC shell
+   chmod +x ~/start_tmux.sh
+#+END_SRC
+
 
 then wtite  crontab -e and put the bellow line at the end:
 
