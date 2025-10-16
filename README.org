@@ -57,8 +57,8 @@ Install tmux terminal multiplexer
 
     Then install the libraries:
 
-    ,#+NAME: shell
-    ,#+BEGIN_SRC shell
+#+NAME: shell
+#+BEGIN_SRC shell
       pip install python-osc
 
       pip install gpiozero
