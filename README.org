@@ -77,7 +77,9 @@ To create a new virtual environment in a directory named .venv, run:
         pip install adafruit-circuitpython-servokit
 #+END_SRC
 
+Install SuperCollider on Raspberry Pi
 
+See more about it here: https://github.com/supercollider/supercollider/blob/develop/README_RASPBERRY_PI.md
 
   *Create a Documents folder*
 
