@@ -8,10 +8,10 @@
 *Goat bells installation on Raspberry pi 3 with servo driver, servo motors, PIR sensor*
 
 ** Parts
-
-*** 1. 16-Channel 12-bit PWM/Servo Driver - PCA9685
-*** 2. Servo motors
-*** 3. PIR Sensor
+*** 1. Raspberry Pi (Raspberry Pi OS Lite 32-bit)
+*** 2. 16-Channel 12-bit PWM/Servo Driver - PCA9685
+*** 3. Servo motors
+*** 4. PIR Sensor
 
 Specification of PIR Sensor
 
