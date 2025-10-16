@@ -44,26 +44,35 @@ Install tmux terminal multiplexer
 
     Make sure venv is installed by running:
 
+#+NAME: shell
+#+BEGIN_SRC shell
     sudo apt install python3-venv
+#+END_SRC
 
-    To create a new virtual environment in a directory named .venv, run:
+To create a new virtual environment in a directory named .venv, run:
 
-    python3 -m venv .venv
+#+NAME: shell
+#+BEGIN_SRC shell
+python3 -m venv .venv
+#+END_SRC
 
     To activate this virtual environment (which modifies the PATH environment
     variable), run this:
 
-    source .venv/bin/activate
+#+NAME: shell
+#+BEGIN_SRC shell
+      source .venv/bin/activate
+#+END_SRC
 
-    Then install the libraries:
+      Then install the libraries:
 
 #+NAME: shell
 #+BEGIN_SRC shell
-      pip install python-osc
+        pip install python-osc
 
-      pip install gpiozero
+        pip install gpiozero
 
-      pip install adafruit-circuitpython-servokit
+        pip install adafruit-circuitpython-servokit
 #+END_SRC
 
 
