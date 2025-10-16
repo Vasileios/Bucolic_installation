@@ -31,32 +31,39 @@ Sensitivity: Adjustable
 
 * Start automatically after reboot
 
-To install python libraries on RPI you better create a virtual environment
+Install tmux terminal multiplexer
 
-Create a virtual environment using venv or virtualenv
-
-Make sure venv is installed by running:
-
-sudo apt install python3-venv
-
-To create a new virtual environment in a directory named .venv, run:
-
-python3 -m venv .venv
-
-To activate this virtual environment (which modifies the PATH environment
-variable), run this:
-
-source .venv/bin/activate
-
-Then install the libraries:
-
-#+NAME: shell
 #+BEGIN_SRC shell
-  pip install python-osc
+  sudo apt update
+  sudo apt install tmux
+#+END_SRC
 
-  pip install gpiozero
+    To install python libraries on RPI you better create a virtual environment
 
-  pip install adafruit-circuitpython-servokit
+    Create a virtual environment using venv or virtualenv
+
+    Make sure venv is installed by running:
+
+    sudo apt install python3-venv
+
+    To create a new virtual environment in a directory named .venv, run:
+
+    python3 -m venv .venv
+
+    To activate this virtual environment (which modifies the PATH environment
+    variable), run this:
+
+    source .venv/bin/activate
+
+    Then install the libraries:
+
+    ,#+NAME: shell
+    ,#+BEGIN_SRC shell
+      pip install python-osc
+
+      pip install gpiozero
+
+      pip install adafruit-circuitpython-servokit
 #+END_SRC
 
 
