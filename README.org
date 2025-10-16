@@ -100,7 +100,13 @@ Make "start_tmux.sh" file executable:
 #+END_SRC
 
 
-then wtite  crontab -e and put the bellow line at the end:
+then in terminal write:
+
+#+BEGIN_SRC shell
+crontab -e
+#+END_SRC
+
+and put the bellow line at the end:
 
 @reboot /bin/bash /home/pi/start_tmux.sh
 
