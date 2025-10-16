@@ -53,7 +53,7 @@ To create a new virtual environment in a directory named .venv, run:
 
 #+NAME: shell
 #+BEGIN_SRC shell
-cd
+  cd
   python3 -m venv .venv
 #+END_SRC
 
