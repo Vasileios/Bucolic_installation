@@ -108,6 +108,6 @@ crontab -e
 
 and put the bellow line at the end:
 
-@reboot /bin/bash /home/pi/start_tmux.sh
+=@reboot /bin/bash /home/pi/start_tmux.sh=
 
 Reboot raspberry pi
