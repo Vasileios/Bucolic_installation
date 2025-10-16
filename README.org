@@ -29,7 +29,8 @@ Operating temperature: -15°C to +70°C
 
 Sensitivity: Adjustable
 
-* Start automatically after reboot
+
+* Installation Instructions
 
 Install tmux terminal multiplexer
 
@@ -99,8 +100,9 @@ Make "start_tmux.sh" file executable:
    chmod +x ~/start_tmux.sh
 #+END_SRC
 
+* Start automatically after reboot
 
-then in terminal write:
+In terminal write:
 
 #+BEGIN_SRC shell
 crontab -e
